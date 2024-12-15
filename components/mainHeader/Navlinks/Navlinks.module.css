@@ -1,0 +1,14 @@
+.navlinks {
+  text-decoration: none;
+  color: #ddd6cb;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.navlinks:hover,
+.navlinks.active {
+  background: linear-gradient(90deg, hsl(32, 100%, 51%), #f9b331);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
